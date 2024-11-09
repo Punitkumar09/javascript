@@ -33,3 +33,27 @@ const myFunction = function(){
     console.log("hello world")
 }
 console.log(typeof heros);
+
+//****************************************memory************************* */
+
+// stack(Primitive) heap(Non-primitive)
+
+let myYoutubeName = "Punitkingvlogs"
+
+let anotherName = myYoutubeName
+anotherName = "puntkumar"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let userOne = {
+    email: "user@gmail.com",
+      upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "punit@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
