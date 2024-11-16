@@ -8,4 +8,9 @@
 ( (name) => { //Unnamed IIFE
     console.log(`DB connected ${name}`);
     
-})('Punit')
+})('Punit');
+
+( (surname) => {
+    console.log(` punit ${surname}`);
+    
+})('Kumar')
